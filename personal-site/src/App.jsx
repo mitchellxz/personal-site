@@ -1,23 +1,18 @@
-import Container from "./layout/Container";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import HomePage from "./pages/HomePage";
+import ProjectsPage from "./pages/ProjectsPage";
+import AboutmePage from "./pages/AboutmePage";
 
 function App() {
   return (
-    <div>
-      <Container
-        className="test"
-        style={{ padding: "20px", backgroundColor: "#f0f0f0" }}
-      >
-        <h1>Hello, World!</h1>
-        <h1>Hello, World!</h1>
-        <h1>Hello, Everyone!</h1>
-      </Container>
-      <Container
-        className="featuredProjects"
-        style={{ padding: "20px", backgroundColor: "red" }}
-      >
-        <h1>Featured Projects</h1>
-      </Container>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/about" element={<AboutmePage />} />
+      </Routes>
+    </Router>
   );
 }
 
