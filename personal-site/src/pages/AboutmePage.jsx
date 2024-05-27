@@ -4,7 +4,7 @@ import Card from "../components/Card";
 
 function AboutmePage() {
   return (
-    <>
+    <div className="aboutme">
       <Container className="heading">
         <Navbar
           item1={"Home"}
@@ -25,7 +25,8 @@ function AboutmePage() {
             <li>Java</li>
             <li>Python</li>
             <li>SQL</li>
-            <li>HTML/CSS</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>R</li>
             <li>JavaScript</li>
             <li>C/C++</li>
@@ -42,6 +43,7 @@ function AboutmePage() {
             <li>PostgreSQL</li>
             <li>Django</li>
             <li>Bootstrap</li>
+            <li>React</li>
           </ul>
         </p>
       </Container>
@@ -53,11 +55,17 @@ function AboutmePage() {
         </p>
         <div className="travelCards">
           <Card
-            image="../src/assets/korea.jpeg"
+            image="http://mitchellrn.dev.s3-website.us-east-2.amazonaws.com/assets/korea.jpeg"
             cardContent={"South Korea"}
           ></Card>
-          <Card image="../src/assets/japan.jpeg" cardContent={"Japan"}></Card>
-          <Card image="../src/assets/miami.jpeg" cardContent={"Miami"}></Card>
+          <Card
+            image="http://mitchellrn.dev.s3-website.us-east-2.amazonaws.com/assets/japan.jpeg"
+            cardContent={"Japan"}
+          ></Card>
+          <Card
+            image="http://mitchellrn.dev.s3-website.us-east-2.amazonaws.com/assets/miami.jpeg"
+            cardContent={"Miami"}
+          ></Card>
         </div>
       </Container>
       <Container className="contact">
@@ -68,7 +76,7 @@ function AboutmePage() {
           <a href="https://www.linkedin.com/in/mitchellrn/">LinkedIn</a>
         </p>
       </Container>
-    </>
+    </div>
   );
 }
 
