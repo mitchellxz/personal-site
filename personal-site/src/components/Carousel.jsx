@@ -26,20 +26,20 @@ function Carousel() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="http://mitchellrn.dev.s3-website.us-east-2.amazonaws.com/assets/preview1.png"
+            src="https://mitchellrn.dev/assets/preview1.png"
             className="d-block w-100"
-            alt="..."
+            alt="boolean bonanza preview"
           />
           <div className="carousel-caption d-none d-md-block">
             <h5>Boolean Bonanza</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <p>Fun educational game about simple boolean logic</p>
           </div>
         </div>
         <div className="carousel-item">
           <img
-            src="http://mitchellrn.dev.s3-website.us-east-2.amazonaws.com/assets/preview2.png"
+            src="https://mitchellrn.dev/assets/preview2.png"
             className="d-block w-100"
-            alt="..."
+            alt="festijam preview"
           />
           <div className="carousel-caption d-none d-md-block">
             <h5>Festijam</h5>
@@ -48,9 +48,9 @@ function Carousel() {
         </div>
         <div className="carousel-item">
           <img
-            src="http://mitchellrn.dev.s3-website.us-east-2.amazonaws.com/assets/preview1.png"
+            src="https://mitchellrn.dev/assets/preview3.png"
             className="d-block w-100"
-            alt="..."
+            alt="PL picker preview"
           />
           <div className="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>

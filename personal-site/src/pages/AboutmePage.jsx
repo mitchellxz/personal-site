@@ -55,15 +55,15 @@ function AboutmePage() {
         </p>
         <div className="travelCards">
           <Card
-            image="http://mitchellrn.dev.s3-website.us-east-2.amazonaws.com/assets/korea.jpeg"
+            image="https://mitchellrn.dev/assets/korea.jpeg"
             cardContent={"South Korea"}
           ></Card>
           <Card
-            image="http://mitchellrn.dev.s3-website.us-east-2.amazonaws.com/assets/japan.jpeg"
+            image="https://mitchellrn.dev/assets/japan.jpeg"
             cardContent={"Japan"}
           ></Card>
           <Card
-            image="http://mitchellrn.dev.s3-website.us-east-2.amazonaws.com/assets/miami.jpeg"
+            image="https://mitchellrn.dev/assets/miami.jpeg"
             cardContent={"Miami"}
           ></Card>
         </div>
@@ -71,8 +71,7 @@ function AboutmePage() {
       <Container className="contact">
         <h1>Contact</h1>
         <p>
-          Feel free to reach out to me at <a href="mailto:[email]">Email</a> or
-          connect with me on{" "}
+          Feel free to reach out and connect with me on{" "}
           <a href="https://www.linkedin.com/in/mitchellrn/">LinkedIn</a>
         </p>
       </Container>

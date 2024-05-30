@@ -27,10 +27,8 @@ function HomePage() {
         <Navbar
           item1={"LinkedIn"}
           item2={"Github"}
-          item3={"Email"}
-          item1href={"#"}
-          item2href={"#/projects"}
-          item3href={"#"}
+          item1href={"https://www.linkedin.com/in/mitchellrn/"}
+          item2href={"https://github.com/mitchellxz"}
         />
       </Container>
     </>
